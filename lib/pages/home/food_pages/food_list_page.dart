@@ -13,12 +13,12 @@ class FoodListPage extends StatefulWidget {
 
 class _FoodListPageState extends State<FoodListPage> {
   var items = [
-    FoodItem(1, "ข้าวไข่เจียว", 25, "kao_kai_jeaw.jpg"),
-    FoodItem(2, "ข้าวหมูแดง", 30, "kao_moo_dang.jpg"),
-    FoodItem(3, "ข้าวมันไก่", 25, "kao_mun_kai.jpg"),
-    FoodItem(4, "ข้าวหน้าเป็ด", 40, "kao_na_ped.jpg"),
-    FoodItem(5, "ข้าวพัด", 30, "kao_pad.jpg"),
-    FoodItem(6, "ผัดซีอิ้ว", 30, "pad_sie_eew.jpg")
+    FoodItem(id: 1,name: "ข้าวไข่เจียว",price: 25,image: "kao_kai_jeaw.jpg"),
+    FoodItem(id: 2,name: "ข้าวหมูแดง",price: 30,image: "kao_moo_dang.jpg"),
+    FoodItem(id: 3,name: "ข้าวมันไก่",price: 25,image: "kao_mun_kai.jpg"),
+    FoodItem(id: 4,name: "ข้าวหน้าเป็ด",price: 40,image: "kao_na_ped.jpg"),
+    FoodItem(id: 5,name: "ข้าวพัด",price: 30,image: "kao_pad.jpg"),
+    FoodItem(id: 6,name: "ผัดซีอิ้ว",price: 30,image: "pad_sie_eew.jpg")
   ];
 
   @override

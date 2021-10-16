@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:tester/pages/home/profile_pages/profile.dart';
-import 'package:tester/pages/home/food_pages/food.dart';
+import 'package:tester/pages/home/food_pages/food_page.dart';
 import 'package:tester/pages/home/food_pages/food_list_page.dart';
 class HomePage extends StatefulWidget {
   static const routeName = '/home';
@@ -37,6 +37,10 @@ class _HomePageState extends State<HomePage> {
         backgroundColor: Colors.grey.shade800,
         title: Text(_subPageIndex == 0 ? 'FLUTTER FOOD' : 'Profile',
             style: GoogleFonts.fredokaOne(color: Colors.white)),
+        actions: [
+          IconButton(onPressed: (){}, icon: Icon(Icons.search)),
+          IconButton(onPressed: (){}, icon: Icon(Icons.refresh))
+        ],
       ),
       drawer: Drawer(
         child: ListView(
